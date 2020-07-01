@@ -1,0 +1,42 @@
+{
+  "name": "marketingsolutions/loyalty-bonuses-sales",
+  "description": "Bonuses charged for saling production for Marketing Solutions loyalty programs",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Pavel Agalecky",
+      "email": "pavel.agalecky@gmail.com"
+    }
+  ],
+  "type": "yii2-extension",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "guzzlehttp/guzzle": "~5.0",
+    "symfony/expression-language": "~2.7",
+    "nesbot/carbon": "~1.14",
+    "marketingsolutions/loyalty-app-contracts": "^3.0.0",
+    "bower-asset/ng-file-upload": "5.0.9",
+    "bower-asset/fancybox": "~2.1",
+    "marketingsolutions/yii2-files": "^1.0.0",
+    "marketingsolutions/yii2-thumbnails": "^1.0.0",
+    "marketingsolutions/yz2-admin-import": "^1.0.0",
+    "marketingsolutions/yii2-datetime": "^1.0.0",
+    "marketingsolutions/yii2-angular": "^1.0.0",
+    "marketingsolutions/icons": "^1.0.0"
+  },
+  "suggest": {
+    "marketingsolutions/loyalty-finances": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ms\\loyalty\\bonuses\\sales\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "ms\\loyalty\\bonuses\\sales\\Bootstrap",
+    "branch-alias": {
+      "dev-master": "3.0.x-dev"
+    }
+  }
+}

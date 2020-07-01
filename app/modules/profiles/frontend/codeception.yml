@@ -1,0 +1,15 @@
+namespace: modules\profiles\frontend\tests
+actor_suffix: Tester
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+settings:
+    bootstrap: '../../../../../../app/common/config/main-test-bootstrap.php'
+    colors: true
+    memory_limit: 1024M
+modules:
+    config:
+        Yii2:
+            configFile: '../../../../app/frontend/config/main-test.php'

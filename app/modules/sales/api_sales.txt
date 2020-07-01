@@ -1,0 +1,354 @@
+ВСЕ запросы отправляются методом POST с заголовками:
+Content-Type: application/json
+X-Token: b-hiDb8xWIv1WN4yiy5sWy5Fke33gOS4Oph-M1Yz43Kqv5DlJdbeis8tI-n1tqaT
+
+-----------------------------------------------------------------------------------------------------------------
+
+Получение каталога продукции, запрос: /sales/api/product/list-products
+
+Успешно код 200:
+{
+  "result": "OK",
+  "products": [
+    {
+      "id": 147,
+      "name": "Gyproc Habito 2000X1250X12.5 мм",
+      "photo_url": "http://unitile.f/data/products/147_photo_5b36473ad1179.png"
+    },
+    {
+      "id": 150,
+      "name": "Gyproc «Теплая лоджия» , комплектующие",
+      "photo_url": "http://unitile.f/data/products/150_photo_5b239a802da6a.jpg"
+    },
+    {
+      "id": 149,
+      "name": "Gyproc «Теплый балкон» , комплектующие",
+      "photo_url": "http://unitile.f/data/products/149_photo_5b23960a57227.jpg"
+    }
+  ]
+}
+
+-----------------------------------------------------------------------------------------------------------------
+
+Добавление продажи, запрос: /sales/api/sale/create
+{
+    "profile_id": 1692,
+    "check_number": "XYZ1234",
+    "sold_on_local": "15.10.2018",
+    "documents": [
+        {
+            "name": "myFilename1.png",
+            "base64": "data:image/png;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAACAAIDAREAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAVSf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwF//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwF//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQAGPwJ//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPyF//9oADAMBAAIAAwAAABCf/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxB//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB//9k="
+        },
+        {
+            "name": "myFilename2.png",
+            "base64": "data:image/png;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAACAAIDAREAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAVSf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwF//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwF//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQAGPwJ//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPyF//9oADAMBAAIAAwAAABCf/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxB//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB//9k="
+        }
+    ],
+    "positions": [
+        {
+            "product_id": 46,
+            "quantity": 5
+        },
+        {
+            "product_id": 47,
+            "quantity": 10
+        }
+    ]
+}
+
+Успешно код 200:
+{
+    "result": "OK",
+    "sale": {
+        "id": 19,
+        "status": "adminReview",
+        "status_label": "На проверке",
+        "bonuses": 40,
+        "sold_on_local": "15.10.2018",
+        "created_at": "14.01.2019",
+        "number": "XYZ1234",
+        "documents": [
+            {
+                "id": 43,
+                "name": "19_document_5c3c8cd1e2cae.png",
+                "url": "http://showcase.f/data/sales/19_document_5c3c8cd1e2cae.png"
+            },
+            {
+                "id": 44,
+                "name": "19_document_5c3c8cd1e487d.png",
+                "url": "http://showcase.f/data/sales/19_document_5c3c8cd1e487d.png"
+            }
+        ],
+        "positions": [
+            {
+                "product_id": 46,
+                "quantity": 5,
+                "bonuses": 10,
+                "bonuses_primary": 2,
+                "product": {
+                    "id": 46,
+                    "name": "weber.vetonit ТТ40",
+                    "photo_url": "http://showcase.f/data/products/46_photo_5aec63a7f2f79.jpg",
+                    "bonuses_formula": "2"
+                }
+            },
+            {
+                "product_id": 47,
+                "quantity": 10,
+                "bonuses": 30,
+                "bonuses_primary": 3,
+                "product": {
+                    "id": 47,
+                    "name": "weber.vetonit easy fix",
+                    "photo_url": "http://showcase.f/data/products/47_photo_5aec63b6df93b.jpg",
+                    "bonuses_formula": "3"
+                }
+            }
+        ],
+        "history": [
+            {
+                "id": 5,
+                "created_at": "14.01.2019 16:22",
+                "note": "Продажа внесена участником",
+                "comment": null
+            }
+        ]
+    }
+}
+
+-----------------------------------------------------------------------------------------------------------------
+
+Обновление продажи, запрос: /sales/api/sale/update
+{
+    "sale_id": 20,
+    "profile_id": 1692,
+    "number": "XYZ1234",
+    "sold_on_local": "16.10.2018",
+    "documents": [
+        {
+            "id": 45,
+            "name": "20_document_5c3c8cd1e2cae.png",
+            "url": "http://showcase.f/data/sales/20_document_5c3c8cd1e2cae.png"
+        },
+        {
+            "name": "myFilename3.png",
+            "base64": "data:image/png;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAACAAIDAREAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAVSf/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwF//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwF//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQAGPwJ//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPyF//9oADAMBAAIAAwAAABCf/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxB//8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxB//9k="
+        }
+    ],
+    "positions": [
+        {
+            "product_id": 50,
+            "quantity": 7
+        },
+        {
+            "product_id": 51,
+            "quantity": 9
+        }
+    ]
+}
+
+Успешно код 200:
+{
+    "result": "OK",
+    "sale": {
+        "id": 20,
+        "status": "adminReview",
+        "status_label": "На проверке",
+        "bonuses": 48,
+        "sold_on_local": "16.10.2018",
+        "created_at": "14.01.2019",
+        "number": "XYZ1234",
+        "documents": [
+            {
+                "id": 45,
+                "name": "20_document_5c3c9e967c243.png",
+                "url": "http://showcase.f/data/sales/20_document_5c3c9e967c243.png"
+            },
+            {
+                "id": 64,
+                "name": "20_document_5c3cdf5423a0f.png",
+                "url": "http://showcase.f/data/sales/20_document_5c3cdf5423a0f.png"
+            }
+        ],
+        "positions": [
+            {
+                "product_id": 50,
+                "quantity": 7,
+                "bonuses": 21,
+                "bonuses_primary": 3,
+                "product": {
+                    "id": 50,
+                    "name": "weber.therm teplofacade",
+                    "photo_url": "http://showcase.f/data/products/50_photo_5aec677d5a9a0.jpg",
+                    "bonuses_formula": "3"
+                }
+            },
+            {
+                "product_id": 51,
+                "quantity": 9,
+                "bonuses": 27,
+                "bonuses_primary": 3,
+                "product": {
+                    "id": 51,
+                    "name": "weber.vetonit easy gyps",
+                    "photo_url": "http://showcase.f/data/products/51_photo_5aec6467c1c92.jpg",
+                    "bonuses_formula": "3"
+                }
+            }
+        ],
+        "history": [
+            {
+                "id": 13,
+                "created_at": "14.01.2019 22:24",
+                "note": "Продажа обновлена участником",
+                "comment": null
+            },
+            {
+                "id": 6,
+                "created_at": "14.01.2019 17:10",
+                "note": "Продажа внесена участником",
+                "comment": null
+            }
+        ]
+    }
+}
+
+-----------------------------------------------------------------------------------------------------------------
+
+Получение списка всех продаж по участнику: /sales/api/sale/list
+{
+    "profile_id": 1692
+}
+
+Успешно код 200:
+{
+    "result": "OK",
+    "sales": [
+        {
+            "id": 19,
+            "status": "adminReview",
+            "status_label": "На проверке",
+            "bonuses": 40,
+            "sold_on_local": "15.10.2018",
+            "created_at": "14.01.2019",
+            "number": "XYZ1234",
+            "documents": [],
+            "positions": null,
+            "history": [
+                {
+                    "id": 5,
+                    "created_at": "14.01.2019 16:22",
+                    "note": "Продажа внесена участником",
+                    "comment": null
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "status": "adminReview",
+            "status_label": "На проверке",
+            "bonuses": 40,
+            "sold_on_local": "15.10.2018",
+            "created_at": "14.01.2019",
+            "number": null,
+            "documents": [],
+            "positions": null,
+            "history": [
+                {
+                    "id": 4,
+                    "created_at": "14.01.2019 16:44",
+                    "note": "Продажа внесена участником",
+                    "comment": null
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "status": "adminReview",
+            "status_label": "На проверке",
+            "bonuses": 40,
+            "sold_on_local": "15.10.2018",
+            "created_at": "14.01.2019",
+            "number": null,
+            "documents": [],
+            "positions": null,
+            "history": [
+                {
+                    "id": 3,
+                    "created_at": "14.01.2019 16:22",
+                    "note": "Продажа внесена участником",
+                    "comment": null
+                }
+            ]
+        }
+    ]
+}
+
+-----------------------------------------------------------------------------------------------------------------
+
+Получение конкретной продажи, запрос: /sales/api/sale/view
+{
+    "profile_id": 1692,
+    "sale_id": 19
+}
+
+Успешно код 200:
+{
+    "result": "OK",
+    "sale": {
+        "id": 19,
+        "status": "adminReview",
+        "status_label": "На проверке",
+        "bonuses": 40,
+        "sold_on_local": "15.10.2018",
+        "created_at": "14.01.2019",
+        "number": "XYZ1234",
+        "documents": [
+            {
+                "id": 43,
+                "name": "19_document_5c3c8cd1e2cae.png",
+                "url": "http://showcase.f/data/sales/19_document_5c3c8cd1e2cae.png"
+            },
+            {
+                "id": 44,
+                "name": "19_document_5c3c8cd1e487d.png",
+                "url": "http://showcase.f/data/sales/19_document_5c3c8cd1e487d.png"
+            }
+        ],
+        "positions": [
+            {
+                "product_id": 46,
+                "quantity": 5,
+                "bonuses": 10,
+                "bonuses_primary": 2,
+                "product": {
+                    "id": 46,
+                    "name": "weber.vetonit ТТ40",
+                    "photo_url": "http://showcase.f/data/products/46_photo_5aec63a7f2f79.jpg",
+                    "bonuses_formula": "2"
+                }
+            },
+            {
+                "product_id": 47,
+                "quantity": 10,
+                "bonuses": 30,
+                "bonuses_primary": 3,
+                "product": {
+                    "id": 47,
+                    "name": "weber.vetonit easy fix",
+                    "photo_url": "http://showcase.f/data/products/47_photo_5aec63b6df93b.jpg",
+                    "bonuses_formula": "3"
+                }
+            }
+        ],
+        "history": [
+            {
+                "id": 5,
+                "created_at": "14.01.2019 16:22",
+                "note": "Продажа внесена участником",
+                "comment": null
+            }
+        ]
+    }
+}

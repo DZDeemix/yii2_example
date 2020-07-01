@@ -1,0 +1,355 @@
+{
+  "name": "pmkteam/demo",
+  "description": "loyalty applications",
+  "keywords": [
+    "yii",
+    "framework",
+    "yz",
+    "application template"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Artem Zinoviev",
+      "email": "7binary@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/zakazpodarka-1c-client.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-certificates-catalog.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2-admin.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-feedback.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-api.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-prizes-payments.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-rsb-cards.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-bonuses-codes.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-finances.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-taxes.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2-elfinder.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2-admin-mailer.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-event-listeners.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-thumbnails.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-phonenumbers.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-tokens.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-sms.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-finance.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-captcha.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-angular.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-files.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2-admin-import.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-datetime.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/icons.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-identity-phones-emails.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-theme.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-app-contracts.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-bonuses-manual.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-reports.git"
+    },
+    {
+      "type": "git",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-demo-link.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-bootstrap-datepicker.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/files-attachments.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-mobile.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-sweetalert.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-scheduling.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-bootstrap-daterangepicker.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-assets.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-momentjs.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2-admin-tinymce.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-shopping-cart.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-checker.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-fancybox.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-courses.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-sms-receive.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-slick-carousel.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yii2-highcharts.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-sms.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-survey.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-tickets.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-location.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-notifications.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-news.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-pages.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-banners.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/loyalty-shop.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@bitbucket.org:pmkteamdev/yz2-gii.git"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "^2.0.15.1",
+    "yiisoft/yii2-bootstrap": "*",
+    "dmstr/yii2-migrate-command": "*",
+    "yiisoft/yii2-debug": "~2.0.0",
+    "yiisoft/yii2-gii": "~2.0.0",
+    "yiisoft/yii2-faker": "~2.0.0",
+    "vlucas/phpdotenv": "^4.1.2",
+    "guzzlehttp/guzzle": "~5.0",
+    "codeception/base": "^2.5.1",
+    "phpunit/phpunit": "~6.5.5",
+    "codeception/verify": "~1.0.0",
+    "rmrevin/yii2-fontawesome": "~2.17",
+    "yii2tech/ar-linkmany": "^1.0",
+    "kartik-v/yii2-widget-datepicker": "^1.4.7",
+    "bower-asset/font-awesome": "5.5.*",
+    "pmkteamdev/yz2-admin": "^1.26.6",
+    "pmkteamdev/files-attachments": "^3.8.2",
+    "pmkteamdev/loyalty-feedback": "^3.7.0",
+    "pmkteamdev/loyalty-assets": "^1.2.0",
+    "pmkteamdev/loyalty-courses": "^3.3.6",
+    "pmkteamdev/loyalty-location": "^3.5.2",
+    "pmkteamdev/loyalty-certificates-catalog": "3.33.1",
+    "pmkteamdev/loyalty-prizes-payments": "3.23.5",
+    "pmkteamdev/loyalty-notifications": "^3.2.0",
+    "pmkteamdev/loyalty-news": "^3.1.1",
+    "pmkteamdev/loyalty-pages": "^3.2.0",
+    "pmkteamdev/loyalty-banners": "^3.2.0",
+    "pmkteamdev/yii2-sms": "^1.0.0",
+    "pmkteamdev/loyalty-shop": "^1.5.1",
+    "pmkteamdev/loyalty-finances": "^3.5.3",
+    "pmkteamdev/loyalty-survey": "^3.3.0",
+    "pmkteamdev/loyalty-theme": "^3.0.0",
+    "pmkteamdev/loyalty-app-contracts": "^3.1.0",
+    "pmkteamdev/zakazpodarka-1c-client": "^3.1.1",
+    "pmkteamdev/loyalty-api": "^3.26.2",
+    "pmkteamdev/loyalty-rsb-cards": "^1.6.2",
+    "pmkteamdev/loyalty-bonuses-codes": "^3.1.7",
+    "pmkteamdev/loyalty-taxes": "^3.9.32",
+    "pmkteamdev/yz2-elfinder": "^1.0.0",
+    "pmkteamdev/loyalty-mobile": "^3.8.1",
+    "pmkteamdev/yz2-admin-mailer": "^1.6.8",
+    "pmkteamdev/yii2-event-listeners": "^1.0.0",
+    "pmkteamdev/yii2-thumbnails": "^1.0.0",
+    "pmkteamdev/yii2-phonenumbers": "^1.0.0",
+    "pmkteamdev/yii2-tokens": "^1.0.0",
+    "pmkteamdev/yii2-captcha": "^1.0.0",
+    "pmkteamdev/yii2-angular": "^1.0.0",
+    "pmkteamdev/yii2-files": "^1.0.0",
+    "pmkteamdev/yz2-admin-import": "^1.6.1",
+    "pmkteamdev/yii2-datetime": "^1.0.0",
+    "pmkteamdev/yii2-finance": "^1.4.2",
+    "pmkteamdev/icons": "^1.0.0",
+    "pmkteamdev/loyalty-identity-phones-emails": "^3.0.0",
+    "pmkteamdev/loyalty-bonuses-manual": "^3.3.0",
+    "pmkteamdev/loyalty-reports": "^3.0.0",
+    "pmkteamdev/loyalty-demo-link": "^3.0",
+    "pmkteamdev/yii2-highcharts": "^1.2.0",
+    "pmkteamdev/yz2-gii": "^1.2.6",
+    "pmkteamdev/loyalty-checker": "^3.0.8",
+    "pmkteamdev/loyalty-sms": "^3.2.1",
+    "pmkteamdev/loyalty-tickets": "^3.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "frontend\\": "app/frontend",
+      "backend\\": "app/backend",
+      "console\\": "app/console",
+      "modules\\": "app/modules"
+    }
+  },
+  "config": {
+    "vendor-dir": "app/vendor",
+    "bin-dir": "app/vendor/bin",
+    "secure-http": false,
+    "process-timeout": 0
+  },
+  "scripts": {
+    "build:env": [
+      "cp .env.docker .env"
+    ],
+    "build:app": [
+      "@composer install",
+      "echo 'waiting for mysql' && sleep 10",
+      "php yii app/setup --interactive=0",
+      "php yii migrate --interactive=0",
+      "php yii admin-users/create-default-admin"
+    ],
+    "docker:build": [
+      "@build:env",
+      "@docker:start",
+      "docker-compose exec -T app composer run-script build:app",
+      "echo \"All ok!\""
+    ],
+    "docker:start": [
+      "docker-compose up --force-recreate -d"
+    ],
+    "docker:cleanup": [
+      "docker-compose rm -fsv"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+#sales thead {
+	display: none;
+}
+#sales tr:first-child td {
+	border-top: none;
+}
+#sales td {
+	padding:    10px;
+	text-align: left;
+	border-top: 2px solid #4fb1b4;
+}
+.data-title {
+	background: beige;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sale-comment {
+	font-size:  13px;
+	margin-top: 12px;
+}
+.sale-comment-from {
+	text-decoration: underline;
+}
+.sale-status {
+	font-weight:bold;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	#sales tr:first-child .row > div:first-child .data-title:first-child {
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+	#sales .row > div:first-child .data-title:first-child {
+		margin-top:0;
+	}
+	.data-title {
+		margin-bottom: 7px;
+		margin-top: 7px;
+	}
+}

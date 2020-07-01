@@ -1,0 +1,29 @@
+#registerForm .modal-dialog {
+    min-width: 800px;
+}
+#registerForm .modal-content {
+    padding: 25px 0 30px !important;
+}
+.ui-autocomplete {
+    position: absolute;
+    z-index: 9999 !important;
+}
+.modal-dialog2 {
+    min-width: 583px !important;
+}
+.marg-in{
+    margin-top: 25px;
+}
+.re_sms, .re_mail{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+#success_phone, #success_email_resend, #success_phone_resend{
+    display: none;
+    color: green;
+    font-size: 20px;
+}
+#msg_phone{
+    color: green;
+    font-size: 20px;
+}

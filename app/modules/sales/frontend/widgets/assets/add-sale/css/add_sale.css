@@ -1,0 +1,55 @@
+.red_link_delete {
+	color:   red;
+	cursor:  pointer;
+	display: none;
+}
+.group_item {
+	color: #4fb1b4;
+}
+.add_new_sales_item {
+	margin-top: 20px;
+}
+.add_new_sales_item, #total_sale_information {
+	display: none;
+}
+#add_new_sale_position {
+	display: none;
+}
+.margin_row_add_position, .margin_row_total_sum_sale {
+	margin-top: 30px;
+}
+.margin-top-close {
+	padding-top: 41px;
+	color:       red;
+	cursor:      pointer;
+}
+.sale_register {
+	display:    none;
+	margin-top: 30px;
+}
+.uploading_img img {
+	max-width:     300px;
+	max-height:    200px;
+	margin-right:  15px;
+	margin-bottom: 10px;
+	border:        1px solid #ddd;
+}
+.fa.remove {
+	font-size: 35px;
+	color:     maroon;
+}
+/* SELECT-2 */
+#saleForm .select2-container .select2-choice {
+	height:      100%;
+	width:       100%;
+	border:      none;
+	background:  white;
+	line-height: 42px;
+}
+#saleForm .select2-container .select2-choice .select2-arrow {
+	background: white;
+	right:      -5px;
+}
+#saleForm .select2-container .select2-choice .select2-arrow b {
+	background-position: 1px 6px;
+}
